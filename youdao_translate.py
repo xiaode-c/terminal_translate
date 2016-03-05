@@ -5,10 +5,13 @@ import json
 import requests
 import sys
 
-API_KEY = '1712456283'
-KEYFROM = 'gaodb712'
+#下面两个是有道翻译api提供，可以到有道翻译申请API
+API_KEY = <your_apikey>
+KEYFROM = <your_keyfrom>
+
 API_URL = 'http://fanyi.youdao.com/openapi.do'
 
+#使终端输出带颜色的字
 red = '\033[31;1m %s \033[1;m'
 green = '\033[32;1m %s \033[1;m'
 blue = '\033[34;1m %s \033[1;m'
